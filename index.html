@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI by Nosa T. Pradana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="icon-logo">
+            <svg height="50" width="50">
+                <circle cx="25" cy="25" r="15" stroke="white" stroke-width="15" fill="none" />
+            </svg>
+            <button class="text-logo">BMI.Cal</button>
+        </div>        
+        <nav>
+            <a href=""><button class="button-header"><span>Download App </span></button></a>
+            <a href=""><button class="button-header"><span>Contact Us </span></button></a>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <div class="grid-item1">
+            <div class="container">
+                <svg height="20" width="20">
+                    <circle cx="10" cy="10" r="7" stroke="white" stroke-width="2" fill="none" />
+                </svg>
+                <button class="text-icon">Calculator</button> 
+            </div>
+            <h1>Kalkulator BMI</h1>
+            <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideak juga menandakan kondisi yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+            <form action="">
+                <fieldset>
+                    <legend>Calculator BMI</legend>
+                    <div class="h6">Jenis Kelamin</div>
+                    <input type="radio" name="gender" id="gender"><label for="pria">Pria</label>
+                    <input type="radio" name="gender" id="gender"><label for="wanita">Wanita</label>
+                    <div class="h6">Usia (tahun)</div>
+                    <div class="input-form"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/White_pencil.png" alt="" class="icon-pencil">
+                    <input type="text" name="usia" id="usia"></div>
+                    <div class="h6">Berat Badan (kg)</div>
+                    <div class="input-form"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/White_pencil.png" alt="" class="icon-pencil">
+                    <input type="text" name="weight" id="weight"></div>
+                    <div class="h6">Tinggi Badan (m)</div>
+                    <div class="input-form"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/White_pencil.png" alt="" class="icon-pencil">
+                    <input type="text" name="height" id="height"></div>
+                    <a href=""><button class="calculate">Hitung BMI</button></a>
+                    <a href=""><button class="reset">Reset</button></a>
+                </fieldset>                
+            </form>
+            <h4>Keunggulan Fitur</h4>
+            <ol>
+                <li>Menghitung berat badan.</li>
+                <li>Menentukan kategori berat badan ideal atau tidak.</li>
+                <li>Mempersiapkan program penurunan berat badan.</li>
+            </ol>
+            <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+            <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum, Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = kg/m<sup>2</sup>.</p>
+        </div>
+        <div class="grid-item2">
+            <div class="container">
+                <svg height="20" width="20">
+                    <circle cx="10" cy="10" r="7" stroke="white" stroke-width="2" fill="none" />
+                </svg>
+                <button class="text-icon">Result</button> 
+            </div>
+            <h1>Hasil</h1>
+            <fieldset>
+                <legend>BMI Result</legend>
+                <div class="container-result">
+                    <div class="result"></div>
+                    <button class="btn-download">Download Hasil BMI</button>
+                </div>
+            </fieldset>
+            <div class="download">            
+                <button class="btn-download">Konsultasi Ahli Gizi Via Aplikasi</button>
+                <button class="btn-download">Registrasi Online Ahli Gizi</button>
+            </div>
+        </div>
+        <div class="grid-item3">
+            <div class="container">
+                <svg height="20" width="20">
+                    <circle cx="10" cy="10" r="7" stroke="white" stroke-width="2" fill="none" />
+                </svg>
+                <button class="text-icon">Effect</button> 
+            </div>
+            <h1>Efek</h1>
+            <div class="container-effect">
+                <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+                <fieldset>
+                    <legend>Effect Prediction</legend>
+                    <div class="container-result">
+                        <div class="effect"></div>
+                    </div>                    
+                </fieldset>
+                <div class="download">
+                    <button class="btn-download">Konsultasi Ahli Gizi Via Aplikasi</button>
+                    <button class="btn-download">Registrasi Online Ahli Gizi</button>  
+                </div>
+            </div>
+                                              
+        </div>
+        <div class="grid-item4">
+            <div class="download"> 
+                <div class="h6">Download Aplikasi</div>                  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="google_play" class="img-download">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/800px-Download_on_the_App_Store_Badge.svg.png" alt="app_store" class="img-download">
+            </div>
+        </div>               
+    </div>
+    
+</body>
+</html>
